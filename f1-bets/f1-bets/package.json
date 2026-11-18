@@ -1,0 +1,10 @@
+{
+  "name": "f1-bets",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev:api": "npm run dev -w apps/api",
+    "start:api": "npm run start -w apps/api",
+    "prisma:migrate": "npm run prisma:migrate -w apps/api"
+  }
+}
